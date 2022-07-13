@@ -16,7 +16,7 @@ import { SelectionComponent } from '../selection/selection.component';
   imports:      [ BrowserModule, FormsModule, HttpClientModule, RouterModule.forRoot([
     { path: 'weather.city', component: DisplayComponent },
     { path: '', component: WeatherComponent },
-    { path: 'City', component: SelectionComponent }
+    { path: '', component: SelectionComponent }
   ]),
 ],
   providers: [WeatherDataService],
