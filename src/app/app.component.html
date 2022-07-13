@@ -2,3 +2,6 @@
 <p>
   Start editing to see some magic happen :)
 </p>
+
+<app-display #display></app-display>
+<app-selection (onSelection)="display.update($event)"></app-selection>
